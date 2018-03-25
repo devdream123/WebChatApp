@@ -1,0 +1,32 @@
+<div ng-app="webchat" class="container" ng-controller="chatController">
+    <div class="row text-secondary">
+        <div class="col-10 ">
+            <h5>Public Room Chat</h5>
+        </div>
+        <div class="col-2">
+            <h5>Online</h5>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-10 message-board border " data-toggle="buttons " style="height: 500px; ">
+            <ul class="list-group " id="messages"></ul>
+        </div>
+
+        <div class="col-2 users-board border">
+
+            <ul ng-repeat="user in currentUserRecord track by $index " class="list-group user-list">
+                <li class="list-group-item" ng-click="openPrivateChat(user) " style="cursor:pointer; border:none; "> {{user}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row form-group mt-3 ">
+        <div class="col-10 input-box ">
+            <input class="small form-control " type="text " ng-model="message " autocomplete="off " width="100% ">
+        </div>
+        <div class="col-2 ">
+            <button class="btn btn-primary " ng-click="send() "> Send </button>
+        </div>
+    </div>
+
+</div>

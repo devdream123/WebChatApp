@@ -1,0 +1,25 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "express": "^4.15.2",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdream123/WebChatApp.git"
+  },
+  "author": "Dannie Ong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdream123/WebChatApp/issues"
+  },
+  "homepage": "https://github.com/devdream123/WebChatApp#readme"
+}
