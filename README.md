@@ -1,7 +1,7 @@
 # WebChatApp
 A simple web chat app using AngularJS, Socket.IO, Express, ES6
 
-## Copy the project to your local: 
+## Retrieve this project
 
 `git clone https://github.com/devdream123/WebChatApp.git`
 
